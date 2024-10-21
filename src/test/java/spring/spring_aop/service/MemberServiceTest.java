@@ -1,17 +1,15 @@
 package spring.spring_aop.service;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import spring.spring_aop.domain.Member;
 import spring.spring_aop.repository.MemoryMemberRepository;
 
-import java.util.Optional;
-
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.*;
 
+// 단위테스트
 class MemberServiceTest {
 
     MemberService memberService;
